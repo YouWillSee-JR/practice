@@ -396,3 +396,79 @@
 #sn-quick-menu .search li:hover a{
     color: #eb2929;
 }
+
+/*header 结束*/
+
+/*body 开始*/
+.logo,.search-list{
+    float: left;
+}
+
+#body .search-list{
+    margin-top: 38px;
+    margin-left: 72px;
+}
+
+#body .search-box input{
+    width: 483px;
+    height: 26px;
+    border: none;
+    padding: 5px 3px 5px 5px;
+    outline: none;
+    font-size: 14px;
+    line-height: 36px;
+    text-indent: 3px;
+}
+
+#body .search-box{
+    border-width: 2px 0 2px 2px;
+    border-style: solid;
+    border-color: #FF0036;
+    height: 36px;
+    width: 623px;
+    position: relative;
+}
+
+#body .button{
+    width: 132px;
+    height: 36px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #fff;
+    background: #FF0036;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+
+#body .search-list ul{
+    width: 625px;
+    height: 24px;
+    font-size: 14px;
+    padding: 7px 0 0 0;
+    margin-left: -12px;
+}
+
+#body .search-list li{
+    float: left;
+    padding: 0 12px;
+    border-right: 1px solid #ccc;
+    line-height: 1.1;
+}
+
+#body .search-list li a{
+    color: #999999;
+}
+
+#body .search-list .red a{
+    color: #ff0036;
+}
+
+#body .search-list .lost{
+    border-right: 0;
+}
+/*body 结束*/

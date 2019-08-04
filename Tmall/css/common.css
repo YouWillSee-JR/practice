@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-body{
+body,button,input{
     font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
 }
 
