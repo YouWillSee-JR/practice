@@ -1,0 +1,29 @@
+/*通用样式*/
+
+/*样式重置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+
+#header{
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 1230px;
+    height: 100%;
+    margin: 0 auto;
+}
