@@ -400,6 +400,10 @@
 /*header 结束*/
 
 /*body 开始*/
+#body{
+    height: 135px;
+}
+
 .logo,.search-list{
     float: left;
 }
@@ -462,6 +466,7 @@
 
 #body .search-list li a{
     color: #999999;
+    font-size: 14px;
 }
 
 #body .search-list .red a{
@@ -472,3 +477,35 @@
     border-right: 0;
 }
 /*body 结束*/
+
+/*main-nav 开始*/
+#main-nav .wrapper li{
+    float: left;
+}
+
+#main-nav .nav-img{
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+#main-nav .wrapper li a{
+    height: 35px;
+    line-height: 35px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 8px;
+}
+
+#main-nav .wrapper .classify{
+    width: 200px;
+    height: 35px;
+    background: #c60a0a;
+}
+
+#main-nav .wrapper .classify a {
+    color: #fff;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+/*main-nav 结束*/

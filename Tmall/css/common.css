@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-body,button,input{
+.hot,button,input{
     font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
 }
 
@@ -25,5 +25,6 @@ a{
 .wrapper{
     width: 1230px;
     height: 100%;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-left: 45px;
 }
