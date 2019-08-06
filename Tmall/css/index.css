@@ -1,10 +1,12 @@
 /*index.html 的样式*/
 
 /*header 开始*/
+body{
+    height: 3000px;
+}
 #header{
     height: 32px;
     background: #a9180a;
-    font-size: 12px;
     line-height: 32px;
     border-bottom: 1px solid #a9180a;
 }
@@ -401,7 +403,12 @@
 
 /*body 开始*/
 #body{
-    height: 135px;
+    height: 130px;
+}
+
+#body .logo a{
+    float: left;
+    height: 130px;
 }
 
 .logo,.search-list{
@@ -479,8 +486,20 @@
 /*body 结束*/
 
 /*main-nav 开始*/
+#main-nav{
+    height: 35px;
+    margin-top: 1px;
+    border-bottom: 1.5px solid #FF0036;
+}
+
 #main-nav .wrapper li{
     float: left;
+    height: 35px;
+    cursor: pointer;
+}
+
+#main-nav .icon-weibiaoti15{
+    color: #fff;
 }
 
 #main-nav .nav-img{
@@ -500,12 +519,266 @@
 
 #main-nav .wrapper .classify{
     width: 200px;
-    height: 35px;
+    height: 36.5px;
     background: #c60a0a;
+}
+
+#main-nav .wrapper .classify i{
+    margin-left: 14px;
+}
+
+#main-nav .wrapper .word-left a{
+    float: left;
+    width: 100px;
 }
 
 #main-nav .wrapper .classify a {
     color: #fff;
     font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
 }
+
+#main-nav .wrapper li:hover a{
+    color: #FF0036;
+}
+
+#main-nav .wrapper .classify:hover a{
+    color: #ffffff;
+}
 /*main-nav 结束*/
+
+/*banner 开始*/
+#banner{
+    background: #69009e;
+}
+
+#banner .wrapper{
+    background: url(../img/pic.webp) no-repeat center;
+    height: 500px;
+}
+
+#banner .wrapper ul{
+    width: 200px;
+    height: 500px;
+    background-color: rgba(0,0,0,.55);
+}
+
+#banner .wrapper li{
+    color: #ffffff;
+    height: 31.2px;
+    line-height: 31.2px;
+    font-size: 14px;
+}
+
+#banner .wrapper i{
+    opacity: .5;
+    margin-left: 14px;
+    margin-right: 4px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#banner .wrapper li a{
+    height: 31px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#banner .wrapper li:hover{
+    background: #ffffff;
+}
+
+#banner .wrapper .color1:hover{
+    color: #e54077;
+}
+
+#banner .wrapper .color1:hover i{
+    color: #e54077;
+}
+
+#banner .wrapper .color1:hover a{
+    color: #e54077;
+}
+
+#banner .wrapper .color2:hover{
+    color: #427def;
+}
+
+#banner .wrapper .color2:hover a{
+    color: #427def;
+}
+
+#banner .wrapper .color2:hover i{
+    color: #427def;
+}
+
+#banner .wrapper .color3:hover{
+    color: #6347ed;
+}
+
+#banner .wrapper .color3:hover i{
+    color: #6347ed;
+}
+
+#banner .wrapper .color3:hover a{
+    color: #6347ed;
+}
+
+#banner .wrapper .color4:hover{
+     color: #e54077;
+}
+
+#banner .wrapper .color4:hover i{
+    color: #e54077;
+}
+
+#banner .wrapper .color4:hover a{
+    color: #e54077;
+}
+
+#banner .wrapper .color5:hover{
+    color: #6347ed;
+}
+
+#banner .wrapper .color5:hover i{
+    color: #6347ed;
+}
+
+#banner .wrapper .color5:hover a{
+    color: #6347ed;
+}
+
+#banner .wrapper .color6:hover{
+    color: #427def;
+}
+
+#banner .wrapper .color6:hover i{
+    color: #427def;
+}
+
+#banner .wrapper .color6:hover a{
+    color: #427def;
+}
+
+#banner .wrapper .color7:hover{
+     color: #fa5c5c;
+}
+
+#banner .wrapper .color7:hover i{
+    color: #fa5c5c;
+}
+
+#banner .wrapper .color7:hover a{
+    color: #fa5c5c;
+}
+
+#banner .wrapper .color8:hover{
+    color: #f7a831;
+}
+
+#banner .wrapper .color8:hover i{
+    color: #f7a831;
+}
+
+#banner .wrapper .color8:hover a{
+    color: #f7a831;
+}
+
+#banner .wrapper .color9:hover{
+    color: #f7a831;
+}
+
+#banner .wrapper .color9:hover i{
+    color: #f7a831;
+}
+
+#banner .wrapper .color9:hover a{
+    color: #f7a831;
+}
+
+#banner .wrapper .color10:hover{
+    color: #427def;
+}
+
+#banner .wrapper .color10:hover i{
+    color: #427def;
+}
+
+#banner .wrapper .color10:hover a{
+    color: #427def;
+}
+
+#banner .wrapper .color11:hover{
+    color: #dd2727;
+}
+
+#banner .wrapper .color11:hover i{
+    color: #dd2727;
+}
+
+#banner .wrapper .color11:hover a{
+    color: #dd2727;
+}
+
+#banner .wrapper .color12:hover{
+     color: #427def;
+}
+
+#banner .wrapper .color12:hover i{
+    color: #427def;
+}
+
+#banner .wrapper .color12:hover a{
+    color: #427def;
+}
+
+#banner .wrapper .color13:hover{
+    color: #f7a831;
+}
+
+#banner .wrapper .color13:hover i{
+    color: #f7a831;
+}
+
+#banner .wrapper .color13:hover a{
+    color: #f7a831;
+}
+
+#banner .wrapper .color14:hover{
+    color: #3bc7bd;
+}
+
+#banner .wrapper .color14:hover i{
+    color: #3bc7bd;
+}
+
+#banner .wrapper .color14:hover a{
+    color: #3bc7bd;
+}
+
+#banner .wrapper .color15:hover{
+    color: #dd2727;
+}
+
+#banner .wrapper .color15:hover i{
+    color: #dd2727;
+}
+
+#banner .wrapper .color15:hover a{
+    color: #dd2727;
+}
+
+#banner .wrapper .color16:hover{
+    color: #3bc7bd;
+}
+
+#banner .wrapper .color16:hover i{
+    color: #3bc7bd;
+}
+
+#banner .wrapper .color16:hover a{
+    color: #3bc7bd;
+}
+/*banner 结束*/
