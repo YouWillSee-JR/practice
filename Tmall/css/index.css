@@ -101,6 +101,8 @@ body{
     border-color: transparent;
     border-width: 0 1px 0 1px;
     padding: 0 14px 0 10px;
+    position: relative;
+    z-index: 1;
 }
 
 #header .triangle:hover{
@@ -213,6 +215,7 @@ body{
     background: #ffffff;
     box-shadow: 0 0 5px #aaa;
     display: none;
+    z-index: 1;
 }
 
 #sn-quick-menu .qr-code::after{
@@ -782,3 +785,15 @@ body{
     color: #3bc7bd;
 }
 /*banner 结束*/
+
+/*side-bar 开始*/
+#side-bar{
+    width: 35px;
+    position: fixed;
+    background: #000;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+/*side-bar 结束*/
