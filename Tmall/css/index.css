@@ -795,5 +795,227 @@ body{
     top: 0;
     bottom: 0;
     height: 100%;
+    padding-top: 115px;
+}
+
+.rect,.shopping-car{
+    cursor: pointer;
+}
+
+#side-bar li{
+    cursor: pointer;
+    position: relative;
+}
+
+#side-bar .vip{
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/tmall.png);
+    position: relative;
+}
+
+#side-bar .shopping-car{
+    height: 100px;
+    width: 35px;
+    margin: 8px 0;
+    position: relative;
+}
+
+#side-bar .box{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 25px;
+    height: 98px;
+    border: solid #444;
+    border-width: 1px 0;
+}
+
+#side-bar .car{
+    position: absolute;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/car.png);
+}
+
+#side-bar .word{
+    position: absolute;
+    left: 7px;
+    top: 40px;
+    height: 50px;
+    width: 20px;
+    line-height: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+#side-bar .tab{
+    height: 35px;
+    width: 35px;
+    margin: 8px 0;
+}
+
+#side-bar ul{
+    height: 245px;
+}
+
+#side-bar .rmb{
+    background: url(../img/rmb.png) no-repeat center;
+}
+
+#side-bar .bar-collect{
+    background: url(../img/collect.png) no-repeat center;
+}
+
+#side-bar .history{
+    background: url(../img/history.png) no-repeat center;
+}
+
+#side-bar .charge{
+    background: url(../img/charge.png) no-repeat center;
+}
+
+#side-bar .feed-back{
+    background: url(../img/feed-back.png) no-repeat center;
+    margin-top: 105px;
+}
+
+#side-bar .qrcode {
+    background: url(../img/qrcode.png) no-repeat center;
+    position: relative;
+}
+
+#side-bar .top{
+    background: url(../img/top.png) no-repeat center;
+    margin: 8px 0 0 0;
+}
+
+#side-bar li a{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 0;
+}
+
+#side-bar .vip a{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 0;
+}
+
+#side-bar .vip:hover{
+    background-color: #FF0036;
+}
+
+#side-bar .shopping-car:hover{
+    background-color: #FF0036;
+}
+
+#side-bar .shopping-car:hover .box{
+    border: 0;
+}
+
+#side-bar .shopping-car:hover .car{
+    background: url("../img/car-white.png") no-repeat;
+}
+
+#side-bar li:hover{
+    background-color: #FF0036;
+}
+
+#side-bar .qrcode:hover{
+    background-color: #000;
+}
+
+#side-bar .qrcode a:hover{
+    background: url(../img/qrcode.png) no-repeat #FF0036;
+}
+
+#side-bar .rect{
+    position: absolute;
+    right: 70px;
+    top: -1px;
+    opacity: 0;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    background: #494949;
+    color: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#side-bar .font{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    color: #494949;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "\5b8b\4f53";
+}
+
+#side-bar .vip:hover .rect{
+    opacity: 1;
+    right: 35px;
+}
+
+#side-bar li:hover .rect{
+    opacity: 1;
+    right: 35px;
+}
+
+#side-bar .pic-1{
+    height: 145px;
+}
+
+#side-bar .pic-1 img{
+    margin: 45px 0 0 27px;
+    width: 100px;
+    height: 100px;
+}
+
+#side-bar .pic-2 img{
+    margin-left: 10px;
+}
+
+#side-bar .square{
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    position: absolute;
+    bottom: 20px;
+    right: -7px;
+    color: #FF0036;
+    text-align: center;
+    font-size: 12px;
+    font-family: "\5b8b\4f53";
+}
+
+#side-bar .qrcode:hover .picture{
+    display: block;
+}
+
+#side-bar .picture{
+    position: absolute;
+    top: -161px;
+    right: 33px;
+    width: 155px;
+    height: 207px;
+    background: url("../img/wrapper.png") no-repeat;
+    display: none;
+    cursor: default;
 }
 /*side-bar 结束*/
