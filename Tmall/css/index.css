@@ -810,8 +810,11 @@ body{
 #side-bar .vip{
     height: 35px;
     width: 35px;
-    background-image: url(../img/tmall.png);
     position: relative;
+}
+
+#side-bar .vip a{
+    background-image: url(../img/tmall.png);
 }
 
 #side-bar .shopping-car{
@@ -861,34 +864,43 @@ body{
     height: 245px;
 }
 
-#side-bar .rmb{
+#side-bar .rmb a{
     background: url(../img/rmb.png) no-repeat center;
 }
 
-#side-bar .bar-collect{
+#side-bar .bar-collect a{
     background: url(../img/collect.png) no-repeat center;
 }
 
-#side-bar .history{
+#side-bar .history a{
     background: url(../img/history.png) no-repeat center;
 }
 
-#side-bar .charge{
+#side-bar .charge a{
     background: url(../img/charge.png) no-repeat center;
 }
 
-#side-bar .feed-back{
+#side-bar .feed-back a{
     background: url(../img/feed-back.png) no-repeat center;
+}
+
+#side-bar .feed-back{
     margin-top: 105px;
 }
 
-#side-bar .qrcode {
+#side-bar .qrcode a{
     background: url(../img/qrcode.png) no-repeat center;
+}
+
+#side-bar .qrcode{
     position: relative;
 }
 
-#side-bar .top{
+#side-bar .top a{
     background: url(../img/top.png) no-repeat center;
+}
+
+#side-bar .top{
     margin: 8px 0 0 0;
 }
 
@@ -906,7 +918,7 @@ body{
     top: 0;
 }
 
-#side-bar .vip:hover{
+#side-bar .vip a:hover{
     background-color: #FF0036;
 }
 
@@ -922,7 +934,7 @@ body{
     background: url("../img/car-white.png") no-repeat;
 }
 
-#side-bar li:hover{
+#side-bar li a:hover{
     background-color: #FF0036;
 }
 
@@ -946,6 +958,7 @@ body{
     font-size: 12px;
     background: #494949;
     color: #ffffff;
+    cursor: default;
     box-shadow: 0 0 5px rgba(0,0,0,.2);
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -967,12 +980,7 @@ body{
     font-family: "\5b8b\4f53";
 }
 
-#side-bar .vip:hover .rect{
-    opacity: 1;
-    right: 35px;
-}
-
-#side-bar li:hover .rect{
+#side-bar a:hover +.rect{
     opacity: 1;
     right: 35px;
 }
